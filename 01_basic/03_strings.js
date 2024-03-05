@@ -4,7 +4,7 @@ const repoCount = 50
 
 // console.log(name + repoCount + " Value");
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // this is a new way to write and add a string 
 
 const gameName = new String('pratham-hc-com')
 
