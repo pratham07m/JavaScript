@@ -90,7 +90,7 @@ console.log(gameCounter);
 
 
 /* Return type of variables in JavaScript
-1) Primitive Datatypes
+1) Primitive Datatypes (use stack memoy) stack can not orignal change vale
        Number => number
        String  => string
        Boolean  => boolean
@@ -99,7 +99,7 @@ console.log(gameCounter);
        Symbol  =>  symbol
        BigInt  =>  bigint
 
-2) Non-primitive Datatypes
+2) Non-primitive Datatypes(use heap memory) heap changes in orignal value
        Arrays  =>  object
        Function  =>  function
        Object  =>  objec */
