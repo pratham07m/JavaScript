@@ -1,12 +1,13 @@
 
 
 function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
+    console.log("p");
+    console.log("r");
+    console.log("a");
+    console.log("t");
+    console.log("h");
+    console.log("a");
+    console.log("m");
 }
 
 // sayMyName()
@@ -48,7 +49,7 @@ function calculateCartPrice(...num1){ //...num1 (...)is call rest operator same 
  console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
+    username: "pratham",
     prices: 199
 }
 
