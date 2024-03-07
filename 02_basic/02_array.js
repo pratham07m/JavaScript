@@ -21,9 +21,9 @@ console.log(real_another_array);
 
 
 
-console.log(Array.isArray("Hitesh"))
-console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting becouse it output will be a empty array
+console.log(Array.isArray("pratham"))
+console.log(Array.from("pratham"))
+console.log(Array.from({name: "pratham"})) // interesting becouse it output will be a empty array
 
 let score1 = 100
 let score2 = 200
