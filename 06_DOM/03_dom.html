@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DOM Create & Edit Elements</title>
+</head>
+<body>
+   
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+
+    div.className = "divclass"
+    div.id = "divid";
+    div.setAttribute("title", "divtitle")
+    
+    div.style.color = "gold"
+
+    div.innerText ="This is div text" //it is one way to add text node in js to html but it is overhidde 
+    // <!-- OR -->
+    const addText = document.createTextNode("This is my second way to input content") //this is second way to add text node in JS to html
+    div.appendChild(addText)
+
+    document.body.appendChild(div) //Connect DOM - div in html (add text node in html)
+
+</script>
+</html>
