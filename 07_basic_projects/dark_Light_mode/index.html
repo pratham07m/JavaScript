@@ -1,0 +1,45 @@
+    <!-- prerequisities = clear Javascript DOM & Event topics  -->
+  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modes</title>
+</head>
+<body>
+    <button class="btn" style="width: 80px; background-color: black; color: white; border-radius: 10px;">Dark</button>
+</body>
+<script>
+    let button = document.querySelector('.btn')
+    let body = document.querySelector('body')
+    let curmode = "light"
+
+    button.addEventListener('click' , function(e){
+        console.log(e);
+        
+        if(curmode === "light"){
+            curmode = "dark"
+            button.style.backgroundColor= "white" 
+            button.style.color="black"
+            body.style.backgroundColor="black";
+           button.textContent = 'Light'
+
+             
+          
+            
+        }else{
+             curmode="light"
+             body.style.backgroundColor="white"
+             button.style.backgroundColor="black"
+             button.style.color="white"
+             button.textContent='Dark'
+             
+         
+        }
+        
+
+    })
+</script>
+</html>
